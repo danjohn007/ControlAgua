@@ -3,6 +3,11 @@
  * Test de URL Base y Configuración del Sistema
  */
 
+// Configurar sesión ANTES de iniciarla
+ini_set('session.cookie_httponly', 1);
+ini_set('session.use_only_cookies', 1);
+ini_set('session.cookie_secure', 0); // Cambiar a 1 si usa HTTPS
+
 session_start();
 require_once __DIR__ . '/config/config.php';
 
