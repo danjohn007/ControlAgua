@@ -7,9 +7,9 @@
 
 return [
     'host' => 'localhost',
-    'database' => 'controlagua',
-    'username' => 'root',
-    'password' => '',
+    'database' => 'majorbot_dunas',
+    'username' => 'majorbot_dunas',
+    'password' => 'Danjohn007!',
     'charset' => 'utf8mb4',
     'port' => 3306
 ];
