@@ -4,6 +4,11 @@
  * Punto de entrada de la aplicación
  */
 
+// Configurar sesión ANTES de iniciarla
+ini_set('session.cookie_httponly', 1);
+ini_set('session.use_only_cookies', 1);
+ini_set('session.cookie_secure', 0); // Cambiar a 1 si usa HTTPS
+
 // Iniciar sesión
 session_start();
 

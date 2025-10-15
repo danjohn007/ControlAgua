@@ -13,11 +13,6 @@ define('BASE_URL', $protocol . $host . $script_path);
 // Configuración de zona horaria
 date_default_timezone_set('America/Mexico_City');
 
-// Configuración de sesión
-ini_set('session.cookie_httponly', 1);
-ini_set('session.use_only_cookies', 1);
-ini_set('session.cookie_secure', 0); // Cambiar a 1 si usa HTTPS
-
 // Configuración de errores (cambiar en producción)
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
