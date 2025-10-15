@@ -17,9 +17,6 @@ logs/
 tmp/
 temp/
 
-# Database configuration (users should copy from example)
-config/database.php
-
 # Uploaded files
 uploads/*
 !uploads/.gitkeep

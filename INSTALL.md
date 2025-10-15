@@ -110,7 +110,7 @@ mysql -u root -p controlagua < sql/datos_ejemplo.sql
 ### Paso 4: Configurar Credenciales de Base de Datos
 
 1. Abrir el archivo: `config/database.php`
-2. Modificar las credenciales según tu configuración:
+2. Modificar las credenciales según tu configuración local:
 
 ```php
 return [
@@ -123,7 +123,7 @@ return [
 ];
 ```
 
-**Nota:** En XAMPP la contraseña de root suele estar vacía por defecto.
+**Nota:** El archivo ya existe con valores por defecto. En XAMPP la contraseña de root suele estar vacía por defecto.
 
 ### Paso 5: Verificar la Instalación
 
