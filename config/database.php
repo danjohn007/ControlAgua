@@ -2,7 +2,7 @@
 /**
  * Configuración de Base de Datos
  * 
- * Copie este archivo a database.php y configure sus credenciales
+ * Configure sus credenciales según su entorno
  */
 
 return [
